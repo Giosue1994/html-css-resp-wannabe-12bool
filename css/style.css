@@ -12,18 +12,6 @@ section h3 {
   margin-top: 100px;
 }
 
-/* BLOCCO STEPS */
-#steps .row>.left,
-#steps .row>.central,
-#steps .row>.right {
-  float: left;
-  width: 33%;
-}
-
-#steps {
-  text-align: center;
-}
-
 /* BLOCCO PERCHE */
 #why {
   text-align: center;
