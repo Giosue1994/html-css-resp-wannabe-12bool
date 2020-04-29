@@ -16,6 +16,12 @@
   border: none;
 }
 
+.debug .row [class*="col-"] > .row {
+  height: 100%;
+  border: none;
+  background-color: lightgreen;
+}
+
 .debug [class*="col-"] > .row [class*="col-"] {
   background-color: yellow;
   border: 2px solid white;
