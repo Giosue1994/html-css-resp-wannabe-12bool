@@ -1,0 +1,48 @@
+/* VERSIONE MOBILE */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 2em;
+  }
+
+/* SEZIONI */
+  #lezioni {
+    margin-top: 20px;
+  }
+
+  #why img {
+    height: 150px;
+  }
+/* FINE SEZIONI */
+
+/* COLONNE */
+  .row {
+    padding: 30px;
+    border-radius: 10px;
+  }
+
+  .row.grey {
+    background-color: lightgrey;
+  }
+
+  .col-xs-12 {
+    background-color: #f9f9f9;
+    border-radius: 20px;
+  }
+
+  .col-xs-12 p {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+  }
+
+  .col-xs-8 {
+    margin-top: 50px;
+  }
+
+  .col-xs-8 img {
+    height: 100px;
+    margin-top: 10px;
+  }
+  /* FINE COLONNE */
+}
+/* FINE VERSIONE MOBILE */

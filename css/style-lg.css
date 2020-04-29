@@ -1,7 +1,9 @@
 /* REGOLE GENERALI */
 body {
   font-size: 0.9em;
+  font-family: Roboto, arial, sans-serif;
 }
+
 section h1 {
   font-size: 2em;
   margin-bottom: 20px;
