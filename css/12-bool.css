@@ -1,0 +1,128 @@
+/* ________ DEBUG ________ */
+.debug .row {
+  background-color: lightblue;
+  border: 2px solid blue;
+}
+
+.debug [class*="col-"] {
+  background-color: lightgreen;
+  height: 200px;
+  border: 2px solid green;
+  padding: 5px;
+}
+
+.debug [class*="col-"] > .row {
+  height: 100%;
+  border: none;
+}
+
+.debug [class*="col-"] > .row [class*="col-"] {
+  background-color: yellow;
+  border: 2px solid white;
+  height: 100%;
+}
+/* ________ FINE DEBUG ________ */
+
+/* ________ RESET ________ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ________ FINE RESET ________ */
+
+/* ________ REGOLE GENERALI ________ */
+.row {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+[class*="col-"] {
+  float: left;
+}
+/* ________ FINE REGOLE GENERALI ________ */
+
+/* ________ COLONNE ________ */
+/* Colonne xs */
+@media screen and (max-width: 768px) {
+  .col-xs-1 {
+    width: calc(100% / 12);
+  }
+  .col-xs-2 {
+    width: calc( (100% / 12) * 2);
+  }
+  .col-xs-3 {
+    width: calc( (100% / 12) * 3);
+  }
+  .col-xs-4 {
+    width: calc( (100% / 12) * 4);
+  }
+  .col-xs-5 {
+    width: calc( (100% / 12) * 5);
+  }
+  .col-xs-6 {
+    width: 50%;
+  }
+  .col-xs-7 {
+    width: calc( (100% / 12) * 7);
+  }
+  .col-xs-8 {
+    width: calc( (100% / 12 ) * 8);
+  }
+  .col-xs-9 {
+    width: calc( (100% / 12) * 9);
+  }
+  .col-xs-10 {
+    width: calc( (100% / 12) * 10);
+  }
+  .col-xs-11 {
+    width: calc( (100% / 12) * 11);
+  }
+  .col-xs-12 {
+    width: 100%;
+  }
+
+/* Offset colonne xs */
+  .col-xs-offset-1 {
+    margin-left: calc(100% / 12);
+  }
+  .col-xs-offset-2 {
+    margin-left: calc( (100% / 12) * 2);
+  }
+  .col-xs-offset-3 {
+    margin-left: calc( (100% / 12) * 3);
+  }
+  .col-xs-offset-4 {
+    margin-left: calc( (100% / 12) * 4);
+  }
+  .col-xs-offset-5 {
+    margin-left: calc( (100% / 12) * 5);
+  }
+  .col-xs-offset-6 {
+    margin-left: 50%;
+  }
+  .col-xs-offset-7 {
+    margin-left: calc( (100% / 12) * 7);
+  }
+  .col-xs-offset-8 {
+    margin-left: calc( (100% / 12) * 8);
+  }
+  .col-xs-offset-9 {
+    margin-left: calc( (100% / 12) * 9);
+  }
+  .col-xs-offset-10 {
+    margin-left: calc( (100% / 12) * 10);
+  }
+  .col-xs-offset-11 {
+    margin-left: calc( (100% / 12) * 11);
+  }
+}
+/* Fine Offset colonne xs */
+/* Colonne xs */
+/* ________ FINR COLONNE ________ */
