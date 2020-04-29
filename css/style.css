@@ -1,26 +1,15 @@
-.row {
-  width: 992px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 100px;
+section h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
 }
 
-/* BLOCCO LEZIONI */
-#lezioni .row>.left,
-#lezioni .row>.right {
-  width: 50%;
-  float: left;
+section h3 {
+  margin: 20px 0;
 }
 
-#lezioni .row img {
-  /* per centrare orizzontalmente */
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-#lezioni {
+#lezioni, #steps, #why {
   text-align: center;
+  margin-top: 100px;
 }
 
 /* BLOCCO STEPS */
