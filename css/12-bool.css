@@ -130,6 +130,12 @@
   }
 }
 /* Fine Offset colonne xs */
+
+/* Display none xs */
+  .xs-display-none {
+    display: none;
+  }
+/* Fine Display none xs */
 /* Fine Colonne xs */
 
 /* Colonne md */
@@ -207,6 +213,10 @@
   }
 }
 /* Fine Offset colonne md */
+/* Display none md */
+  .md-display-none {
+    display: none;
+  }
 /* Fine Colonne md */
 
 /* Colonne lg */
@@ -284,5 +294,9 @@
   }
 }
 /* Fine Offset colonne lg */
+/* Display none lg */
+  .lg-display-none {
+    display: none;
+  }
 /* Fine Colonne lg */
 /* ________ FINE COLONNE ________ */
